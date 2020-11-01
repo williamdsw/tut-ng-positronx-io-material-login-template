@@ -2,16 +2,14 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
+  templateUrl: './register.component.html'
 })
 export class RegisterComponent implements OnInit {
 
-  roles: string[] = ['Admin', 'Author', 'Reader'];
+  public roles: string[] = ['Admin', 'Author', 'Reader'];
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
